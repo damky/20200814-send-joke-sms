@@ -7,9 +7,10 @@
 - [ ] the number will recieve a joke/scripture verse/daily mantra/etc. via sms.
 - [ ] sms rates may apply.
 
-| apis   | urls               | actions                  |
-| ------ | ------------------ | ------------------------ |
-| get    | api/entity/numbers | get all numbers          |
-| post   | api/entity         | add new number/name pair |
-| put    | api/entity/:id     | update entity            |
-| delete | api/api/entity/:id | remove an entity by id   |
+| apis   | urls          | actions                |
+| ------ | ------------- | ---------------------- |
+| get    | api/users     | get all users          |
+| get    | api/users/:id | get all users          |
+| post   | api/users     | add new user data      |
+| put    | api/users/:id | update user data       |
+| delete | api/users/:id | remove an entity by id |
